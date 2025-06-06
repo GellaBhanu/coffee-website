@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome for social icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="navlogo">
+                <h2 class="logo-text">☕ Coffee</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times" aria-label="Close menu"></button>
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars" aria-label="Open menu"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="section-content">
+                <div class="hero-details" data-aos="fade-up">
+                    <h1 class="title">Best Coffee</h1>
+                    <h2 class="subtitle" data-aos="fade-right">Make your day great with our special coffee..!</h2>
+                    <p class="description" data-aos="fade-up">
+                        <br />
+                        Welcome to our coffee paradise, where every bean tells a story<br />
+                        and every cup sparks joy.
+                        <br /><br /><br />
+                    </p>
+                    <div class="buttons" data-aos="zoom-in" data-aos-delay="600">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#" class="button contact-us">Contact Us</a>
+                    </div>
+                    <div class="hero-image-wrapper" data-aos="fade-left" data-aos-delay="800">
+                        <img src="images/1.png" alt="Hero Coffee Image" class="hero-image" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about.jpg" alt="About Our Café" class="about-image" />
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">
+                        At House of Coffee, we serve more than just coffee — we serve comfort, connection, and community.
+                        From our ethically sourced beans to our cozy atmosphere, everything is crafted with care.
+                        Whether you're stopping by for your morning brew or settling in with friends, you're always welcome here.
+                        <br /><br />
+                        <strong>Our Promise:</strong><br />
+                        🌿 Sustainably sourced beans<br />
+                        🍰 Fresh, homemade treats daily<br />
+                        🪑 A cozy space to relax, work, or connect<br />
+                        💛 Service that feels like home<br /><br />
+                        Come sip, stay awhile — and let us be your favorite part of the day.
+                    </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu-section">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/hot bevarage.png" alt="Hot Beverage" class="menu-image" />
+                        <h3 class="name">Hot Beverage- <span class="price">$2.50</span></h3>
+                        <p class="text">Wide range of steaming hot coffee to make you fresh and light.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/cold bevarage.png" alt="Cold Beverage" class="menu-image" />
+                        <h3 class="name">Cold Beverage -<span class="price">$3.00</span></h3>
+                        <p class="text">Perfectly chilled beverages to help you relax, recharge, and refresh.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/sandwich.png" alt="Sandwiches" class="menu-image" />
+                        <h3 class="name">Sandwiches- <span class="price">$4.00</span></h3>
+                        <p class="text">Deliciously layered sandwiches, crafted to satisfy your hunger anytime.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/desserts.png" alt="Desserts" class="menu-image" />
+                        <h3 class="name">Desserts- <span class="price">$3.20</span></h3>
+                        <p class="text">A sweet finish with our range of classic and creative dessert delights.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/icecream.png" alt="Ice Cream" class="menu-image" />
+                        <h3 class="name">Ice Cream- <span class="price">$2.90</span></h3>
+                        <p class="text">Chilled scoops of happiness in classic and exotic flavors to savor.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/burger.png" alt="Burger" class="menu-image" />
+                        <h3 class="name">Burger- <span class="price">$5.50</span></h3>
+                        <p class="text">Juicy grilled burgers with fresh toppings and savory sauces.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="reviews-section">
+            <h2 class="section-title" data-aos="fade-up">Customer Reviews</h2>
+            <div class="reviews-container">
+                <div class="reviews-slider">
+                    <div class="review-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="reviewer-info">
+                            <img src="images/1.jpg" alt="Sarah Johnson" class="reviewer-image">
+                            <h3>Johnson</h3>
+                            <p class="role">Coffee Enthusiast</p>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                        <p class="review-text">The best coffee shop in town!<br> Their specialty drinks are amazing, <br>and the atmosphere is perfect for<br> both work and relaxation.</p>
+                    </div>
+                    <div class="review-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="reviewer-info">
+                            <img src="images/2.jpg" alt="Michael Chen" class="reviewer-image">
+                            <h3>Sarah </h3>
+                            <p class="role">Regular Customer</p>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                        <p class="review-text">I love their pastries and <br>the friendly staff. The coffee <br>is consistently excellent, <br>and the place has a great vibe.</p>
+                    </div>
+                    <div class="review-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="reviewer-info">
+                            <img src="images/3.jpg" alt="Emily Rodriguez" class="reviewer-image">
+                            <h3 > Rodriguez</h3>
+                            <p class="role">Food Blogger</p>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                        <p class="review-text">The attention to detail <br>in their coffee preparation <br>is impressive. Their seasonal<br> drinks are always a treat!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Our Gallery</h2>
+            <div class="section-content">
+                <div class="gallery-grid">
+                    <figure class="gallery-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+                        <img src="images/gallery1.jpg" alt="Coffee Shop Interior" class="gallery-image">
+                        <figcaption>Coffee Shop Interior</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+                        <img src="images/gallery2.jpg" alt="Specialty Coffee" class="gallery-image">
+                        <figcaption>Specialty Coffee</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="images/gallery3.jpg" alt="Pastry Display" class="gallery-image">
+                        <figcaption>Pastry Display</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                        <img src="images/gallery4.jpg" alt="Coffee Making" class="gallery-image">
+                        <figcaption>Coffee Making</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+                        <img src="images/gallery5.jpg" alt="Outdoor Seating" class="gallery-image">
+                        <figcaption>Outdoor Seating</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
+                        <img src="images/gallery6.jpg" alt="Coffee Art" class="gallery-image">
+                        <figcaption>Coffee Art</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <div class="contact-container">
+                    <div class="contact-info" data-aos="fade-right">
+                        <h3>Get in Touch</h3>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>123 Coffee Street, Brew City, BC 12345</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>hello@coffeeshop.com</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <p>Mon-Sun: 7:00 AM - 9:00 PM</p>
+                        </div>
+                    </div>
+                    <form class="contact-form" data-aos="fade-left">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="section-content">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2 class="logo-text">☕ Coffee</h2>
+                    <p>Your perfect coffee companion</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Coffee Shop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
